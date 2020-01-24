@@ -14,7 +14,7 @@
         <p> 
             ou retorne ao
             <span>
-                <router-link to="login">login</router-link> 
+                <router-link to="/">login</router-link> 
             </span>
         </p>
     </div>

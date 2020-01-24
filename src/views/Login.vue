@@ -1,5 +1,6 @@
 <template>
     <div class="login">
+
         <h1>Login</h1>
 
         <input type="text" placeholder="Email">
@@ -7,16 +8,8 @@
         <input type="text" placeholder="Senha">
         <br>
 
-        <div class="btn-login">
-            <button>Login</button>
-        </div>
+        <button class="btn-login">Login</button>
 
-        <p> 
-            Você não tem conta?
-            <span>
-                <router-link to="registrar"> crie uma conta</router-link>
-            </span>
-        </p>
     </div>
 </template>
 
@@ -38,7 +31,7 @@ input {
     padding-left: 10px;
 }
 
-button{
+.btn-login{
     height: 40px;
     width: 100px;
     border: none;
@@ -47,4 +40,5 @@ button{
     cursor: pointer;  
     color: #FFF;
 }
+
 </style>
